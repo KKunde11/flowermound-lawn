@@ -71,7 +71,8 @@ export default function Home() {
           <div className="container hero-content">
             <div className="hero-text">
               <p className="hero-eyebrow">Serving Flower Mound, TX</p>
-              <h1>Need Lawn Care or Landscaping in Flower Mound?</h1>
+              <h1>Get Lawn Care or Yard Work in Flower Mound — Fast Quotes from Local Crews</h1>
+              <p className="hero-assurance">No calling around — we connect you with a local crew who can help.</p>
               <p className="hero-sub">
                 Get a fast quote from a reliable local crew — mowing, cleanups, or full landscaping projects.
               </p>
@@ -93,9 +94,10 @@ export default function Home() {
 
             <div className="form-card" id="get-quote">
               <div className="form-header">
-                <h2>Get a Fast Quote (Takes 60 Seconds)</h2>
+                <h2>Get a Free Quote in 60 Seconds</h2>
+                <p className="form-speed">Get a quote in 24 hours from a local crew</p>
                 <p className="form-urgency">⚡ Spots fill up quickly this week — request yours now.</p>
-                <p className="human-note">We will connect you with a solid local crew we trust — no spam, no runaround.</p>
+                <p className="human-note">We'll match you with a local crew who can help.</p>
               </div>
 
               <form onSubmit={handleSubmit} noValidate>
@@ -127,7 +129,7 @@ export default function Home() {
                     <option value="Lawn care (mowing)">Lawn care (mowing)</option>
                     <option value="Yard cleanup">Yard cleanup</option>
                     <option value="Landscaping project">Landscaping project</option>
-                    <option value="Not sure">Not sure — need help</option>
+                    <option value="Not sure — need recommendation">Not sure — need recommendation</option>
                   </select>
                 </div>
 
@@ -153,11 +155,11 @@ export default function Home() {
                 {error && <p className="form-error">{error}</p>}
 
                 <button type="submit" className="submit-btn" disabled={loading}>
-                  {loading ? 'Sending...' : 'Get My Quote Now'}
+                  {loading ? 'Sending...' : 'Get My Fast Quote'}
                 </button>
 
                 <p className="form-footnote">No spam. No obligation. Local pros only.</p>
-                <p className="speed-note">Most people get contacted within a few hours.</p>
+                <p className="speed-note">Most requests get responses the same day.</p>
               </form>
             </div>
           </div>
@@ -232,6 +234,7 @@ export default function Home() {
         .hero-content { position: relative; z-index: 1; display: grid; grid-template-columns: 1fr 440px; gap: 60px; align-items: start; }
         .hero-eyebrow { display: inline-block; background: rgba(74,140,84,0.3); color: #7eba84; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; padding: 5px 12px; border-radius: 20px; border: 1px solid rgba(126,186,132,0.3); margin-bottom: 16px; }
         .hero-text h1 { font-size: clamp(2rem, 4vw, 3rem); color: #fff; margin-bottom: 18px; }
+        .hero-assurance { color: rgba(255,255,255,0.65); font-size: 0.95rem; margin-bottom: 14px; }
         .hero-sub { color: rgba(255,255,255,0.75); font-size: 1.1rem; line-height: 1.6; margin-bottom: 12px; max-width: 480px; }
         .local-line { color: rgba(255,255,255,0.45); font-size: 0.8rem; margin-bottom: 20px; }
         .hero-services {
@@ -257,6 +260,7 @@ export default function Home() {
         .form-header h2 { font-size: 1.4rem; color: #1a3a1f; margin-bottom: 4px; }
         .form-urgency { color: #d4820a; font-size: 0.82rem; font-weight: 600; margin-top: 6px; margin-bottom: 4px; }
         .human-note { color: #6b6b64; font-size: 0.82rem; line-height: 1.4; }
+        .form-speed { color: #4a8c54; font-size: 0.78rem; font-weight: 500; margin-top: 6px; margin-bottom: 4px; }
         .field { margin-bottom: 16px; }
         .field label { display: block; font-size: 0.85rem; font-weight: 600; color: #3d3d38; margin-bottom: 6px; }
         .req { color: #d4820a; }
