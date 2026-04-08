@@ -50,19 +50,19 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Flower Mound Lawn Care & Landscaping</title>
-        <meta name="description" content="Get lawn care and landscaping help in Flower Mound, TX." />
+        <title>Flower Mound Lawn Care & Yard Work | Fast Local Quotes</title>
+        <meta name="description" content="Get fast quotes for lawn care, yard cleanup, and landscaping in Flower Mound, TX. Local crews. Same-day responses. No obligation." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <meta property="og:title" content="Flower Mound Yard Work" />
-        <meta property="og:description" content="Get lawn care, yard cleanup, and landscaping help from a local Flower Mound crew." />
+        <meta property="og:title" content="Flower Mound Lawn Care & Yard Work | Fast Local Quotes" />
+        <meta property="og:description" content="Get fast quotes for lawn care, yard cleanup, and landscaping in Flower Mound. Local crews respond quickly. No obligation." />
         <meta property="og:image" content="https://www.flowermoundyardwork.com/og-image.jpg" />
         <meta property="og:url" content="https://www.flowermoundyardwork.com/" />
         <meta property="og:type" content="website" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Flower Mound Yard Work" />
-        <meta name="twitter:description" content="Get lawn care, yard cleanup, and landscaping help from a local Flower Mound crew." />
+        <meta name="twitter:title" content="Flower Mound Lawn Care & Yard Work | Fast Local Quotes" />
+        <meta name="twitter:description" content="Get fast quotes for lawn care, yard cleanup, and landscaping in Flower Mound. Local crews respond quickly." />
         <meta name="twitter:image" content="https://www.flowermoundyardwork.com/og-image.jpg" />
       </Head>
 
