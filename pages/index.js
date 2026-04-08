@@ -94,8 +94,8 @@ export default function Home() {
 
             <div className="form-card" id="get-quote">
               <div className="form-header">
-                <h2>Get a Free Quote in 60 Seconds</h2>
-                <p className="form-speed">Get a quote in 24 hours from a local crew</p>
+                <h2>Request a Free Quote in 60 Seconds</h2>
+                <p className="form-speed">Hear back from a local crew within 24 hours</p>
                 <p className="form-urgency">⚡ Spots fill up quickly this week — request yours now.</p>
                 <p className="human-note">We'll match you with a local crew who can help.</p>
               </div>
