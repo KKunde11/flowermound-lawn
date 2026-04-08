@@ -7,7 +7,7 @@ const PROJECT_SERVICES = ['Landscaping project']
 export default function Home() {
   const router = useRouter()
   const [form, setForm] = useState({
-    name: '', phone: '', location: '', service: 'Lawn care (mowing)',
+    name: '', email: '', phone: '', location: '', service: 'Lawn care (mowing)',
     description: '', budget: '',
   })
   const [loading, setLoading] = useState(false)
@@ -102,6 +102,11 @@ export default function Home() {
                 <div className="field">
                   <label htmlFor="name">Your Name <span className="req">*</span></label>
                   <input id="name" name="name" type="text" placeholder="Jane Smith" value={form.name} onChange={handleChange} required />
+                </div>
+
+                <div className="field">
+                  <label htmlFor="email">Email Address</label>
+                  <input id="email" name="email" type="email" placeholder="jane@email.com" value={form.email} onChange={handleChange} />
                 </div>
 
                 <div className="field">
