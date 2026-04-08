@@ -7,13 +7,14 @@ const PROJECT_SERVICES = ['Landscaping project']
 export default function Home() {
   const router = useRouter()
   const [form, setForm] = useState({
-    name: '', email: '', phone: '', location: '', service: 'Lawn care (mowing)',
+    name: '', email: '', phone: '', location: '', service: 'Lawn care (mowing)', cleanupType: '',
     description: '', budget: '',
   })
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
 
   const isProject = PROJECT_SERVICES.includes(form.service)
+  const isYardCleanup = form.service === 'Yard cleanup'
 
   const handleChange = (e) => {
     const { name, value } = e.target
@@ -132,6 +133,22 @@ export default function Home() {
                     <option value="Not sure — need recommendation">Not sure — need recommendation</option>
                   </select>
                 </div>
+
+                {isYardCleanup && (
+                  <div className="project-fields">
+                    <div className="field" style={{marginBottom:0}}>
+                      <label htmlFor="cleanupType">What needs to be cleaned up?</label>
+                      <select id="cleanupType" name="cleanupType" value={form.cleanupType} onChange={handleChange}>
+                        <option value="">— Select one —</option>
+                        <option value="Leaves / yard debris">Leaves / yard debris</option>
+                        <option value="Overgrown yard">Overgrown yard</option>
+                        <option value="Branches / brush removal">Branches / brush removal</option>
+                        <option value="General cleanup">General cleanup</option>
+                        <option value="Not sure">Not sure</option>
+                      </select>
+                    </div>
+                  </div>
+                )}
 
                 {isProject && (
                   <div className="project-fields">
