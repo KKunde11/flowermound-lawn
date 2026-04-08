@@ -53,6 +53,17 @@ export default function Home() {
         <title>Flower Mound Lawn Care & Landscaping</title>
         <meta name="description" content="Get lawn care and landscaping help in Flower Mound, TX." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <meta property="og:title" content="Flower Mound Yard Work" />
+        <meta property="og:description" content="Get lawn care, yard cleanup, and landscaping help from a local Flower Mound crew." />
+        <meta property="og:image" content="https://www.flowermoundyardwork.com/og-image.jpg" />
+        <meta property="og:url" content="https://www.flowermoundyardwork.com/" />
+        <meta property="og:type" content="website" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Flower Mound Yard Work" />
+        <meta name="twitter:description" content="Get lawn care, yard cleanup, and landscaping help from a local Flower Mound crew." />
+        <meta name="twitter:image" content="https://www.flowermoundyardwork.com/og-image.jpg" />
       </Head>
 
       <div className="page">
