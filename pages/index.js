@@ -71,7 +71,7 @@ export default function Home() {
           <div className="container hero-content">
             <div className="hero-text">
               <p className="hero-eyebrow">Serving Flower Mound, TX</p>
-              <h1>Get Lawn Care or Yard Work in Flower Mound — Fast Quotes from Local Crews</h1>
+              <h1>Get Lawn Care or Yard Work in Flower Mound</h1>
               <p className="hero-assurance">No calling around — we connect you with a local crew who can help.</p>
               <p className="hero-sub">
                 Get a fast quote from a reliable local crew — mowing, cleanups, or full landscaping projects.
