@@ -53,6 +53,7 @@ export default function Home() {
         <title>Flower Mound Lawn Care & Yard Work | Fast Local Quotes</title>
         <meta name="description" content="Get fast quotes for lawn care, yard cleanup, and landscaping in Flower Mound, TX. Local crews. Same-day responses. No obligation." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="google-site-verification" content="MRBXeoyhLvUnuNgdcUQUcHIGLcbMKMwz8rJyMz6hgu0" />
 
         <meta property="og:title" content="Flower Mound Lawn Care & Yard Work | Fast Local Quotes" />
         <meta property="og:description" content="Get fast quotes for lawn care, yard cleanup, and landscaping in Flower Mound. Local crews respond quickly. No obligation." />
